@@ -255,6 +255,19 @@ p{
 
 }
 
+/* For Smaller Screens */
+@media (max-width: 500px) {
+    .video-grid{
+        display: block;
+    }
+    .video-preview{
+        margin-bottom: 16px;
+    }
+    .search-bar{
+        padding-left: 60px;
+    }
+}
+
 /* -----------CSS for small screens------------- */
 @media (max-width: 750px){
     .video-grid{
